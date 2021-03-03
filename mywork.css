@@ -1,0 +1,38 @@
+
+.work-list-parent{
+    width: 100%; 
+    height: 1000px; 
+    background-image: url(Pictures/common-banner.png); 
+    background-size: auto 100%; 
+    padding-top: 180px;
+}
+.work-box{
+    display: block; 
+    width: 25%; 
+    height: auto; 
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.5); 
+    margin: 0% 1%;
+}
+.work-list-row{
+    display: flex; 
+    width: 100%;
+}
+
+
+@media only screen and (max-width:800px) {
+    /* For mobile phones(500px), For tablets(800px): */
+  
+
+    .work-list-row{
+        display: block;
+        width: 100%;
+    }
+    .work-box{
+        display: block; 
+        width: 100%; 
+        height: auto; 
+        box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2); 
+        margin: 20px 0px;
+    }
+
+}
