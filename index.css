@@ -521,7 +521,7 @@ body{
 .header_parent{
 	border:0px solid red;
 	width:100%;
-	height:1200px;
+	height:1000px;
 	background-image:url(Pictures/testimonial-bg2.png);
 	background-size:140% auto;
 	background-repeat:no-repeat;
@@ -531,7 +531,7 @@ body{
 }
 .header_display_img_1{
 	position:absolute;
-	width: 95%;
+	width: 90%;
 	top:45%;
 	left: 2%;
 	overflow: hidden;
@@ -542,7 +542,7 @@ body{
 	border:0px solid red;
 	display:inline-block;
 	position:absolute;
-	top:26%;
+	top:18%;
 	left:0%;
 	
 }
@@ -593,9 +593,9 @@ body{
 }
 .header_display_info_1{
 	width: 100%;
-	height: 110px;
+	height: auto;
 	position: absolute;
-	bottom: 12%;
+	bottom: 0%;
 	left: 0%;
 	border: 0px solid red;
 	
@@ -612,7 +612,7 @@ body{
 .content_1_parent{
 	display: block;
 	height: auto;
-	padding-top: 125px;
+	padding-top: 0px;
 	border: 0px solid red;
 	
 }
@@ -620,7 +620,7 @@ body{
 	border: 0px solid red;
 	display: block;
 	width: 100%; 
-	height: 100%; 
+	height: auto;
 	position: static;
 	background-color: transparent;
 }
@@ -628,7 +628,7 @@ body{
 	display: flex;
 	align-items: center;
 	width: 100%; 
-	height: 100%; 
+	height: 500px;
 	background-position: center;
 	background-repeat: no-repeat; 
 	background-size: 80% auto; 
@@ -638,10 +638,12 @@ body{
 }
 .content_1_display_right{
 	width: 100%; 
-	height: 100%; 
+	height: auto;
+	overflow: auto;
 	text-align: center;
 	position: static;
-	margin-top: -40px;
+	margin-top: 0px;
+	margin-bottom: 55px;
 }
 .content_1_display_right_child{
 	position: static;
@@ -683,6 +685,12 @@ body{
 	transition: 0.3s;
 }
 
+.client_list_parent{
+	width: 100%;
+	height: auto;
+	border: 0px solid red;
+	padding: 20px 10% 40px 10%;
+}
 .client_list_title_display{
 	width: 100%;
 	
